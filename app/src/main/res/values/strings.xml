@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MovieFinder</string>
+
+
+<!-- Main Screen -->
+<string name="title_app">Movie App</string>
+<string name="button_add_movies">Add Movies to DB</string>
+<string name="button_search_movies">Search for Movies</string>
+<string name="button_search_actors">Search for Actors</string>
+<string name="button_search_movies_title">Search Movies by Title</string>
+
+<!-- Add Movies Screen -->
+<string name="title_add_movies">Add Movies to Database</string>
+<string name="button_add">Add Movies to Database</string>
+<string name="loading_add_movies">Adding movies to database…</string>
+<string name="success_add_movies">Movies successfully added to database!</string>
+<string name="button_go_back">Go Back</string>
+
+<!-- Search Movies Screen -->
+<string name="title_search_movies">Search for Movies</string>
+<string name="label_movie_title">Movie Title</string>
+<string name="button_retrieve_movie">Retrieve Movie</string>
+<string name="button_save_movie">Save Movie to Database</string>
+<string name="loading_search_movies">Searching for movie…</string>
+<string name="success_save_movie">Movie saved to database successfully!</string>
+
+<!-- Search Actors Screen -->
+<string name="title_search_actors">Search for Actors</string>
+<string name="label_actor_name">Actor Name</string>
+<string name="button_search">Search</string>
+<string name="loading_search_actors">Searching for actors…</string>
+<string name="empty_search_actors">Enter an actor name to search</string>
+
+<!-- Search Movies by Title Screen -->
+<string name="title_search_movies_title">Search Movies by Title</string>
+<string name="loading_search_movies_title">Searching for movies…</string>
+<string name="empty_search_movies_title">Enter a movie title to search</string>
+
+<!-- Movie Details -->
+<string name="detail_title">Title</string>
+<string name="detail_year">Year</string>
+<string name="detail_rated">Rated</string>
+<string name="detail_released">Released</string>
+<string name="detail_runtime">Runtime</string>
+<string name="detail_genre">Genre</string>
+<string name="detail_director">Director</string>
+<string name="detail_writer">Writer</string>
+<string name="detail_actors">Actors</string>
+<string name="detail_plot">Plot</string>
+<string name="detail_imdb_id">IMDB ID</string>
+<string name="detail_type">Type</string>
+
+<!-- Error Messages -->
+<string name="error_prefix">Error: </string>
+<string name="error_empty_title">Please enter a movie title</string>
+<string name="error_movie_not_found">Movie not found</string>
+<string name="error_empty_actor">Please enter an actor name</string>
+<string name="error_no_movies_found">No movies found with this actor</string>
+<string name="error_empty_search_term">Please enter a search term</string>
+<string name="error_unknown">Unknown error occurred</string>
+</resources>
